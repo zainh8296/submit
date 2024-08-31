@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lion King Art Contest</title>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: "SUSE", sans-serif;
+            background: linear-gradient(135deg, #000000, #ff6600);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #e74c3c;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            letter-spacing: 0.5px;
+        }
+        .divider {
+            height: 2px;
+            width: 80%;
+            background-color: #e74c3c;
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 10px;
+        }
+
+        p {
+            color: #555;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .submit-button {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .submit-button:hover {
+            background-color: #c0392b;
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>The Lion King Arts Contest 2024</h1>
+        <div class="divider"></div>
+        <h2>Welcome to the 2024 Lion King Arts Contest Portal</h2>
+        <p>Description of the contest:</p>
+        <p>
+            Contestants will get to create an alternate ending for The Lion King (1994) film. Whether using arts (like a comic book strip), writing, or both, contestants will be tasked to complete this project. To win, creativity is key. The board will choose the winner based on the most compelling design and captivating storyline, which will be featured on this site as the winner!
+        </p>
+        <p>Please submit your creation by Friday, September 6th, by 11:59 PM!</p>
+        <p>Tell your friends and siblings about this event!</p>
+        <button class="submit-button" onclick="window.location.href='https://zainh8296.github.io/submit/submit.html'">
+            Submit Your Creation
+        </button>
+    </div>
+</body>
+</html>
